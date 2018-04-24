@@ -1,0 +1,21 @@
+mixin col-d(xs, sm, md, lg, ...items)
+	//- // -var className='', xsWidth, xsOffset, smWidth, smOffset, mdWidth, mdOffset, lgWidth, lgOffset;
+	//- // -var blanks = ['col-xs-', 'col-sm-', 'col-md-', 'col-lg-'];
+	-var className;
+	-className = 'col-xs-' + xs +' col-sm-' + sm + ' col-md-' + md + ' col-lg-' + lg;
+	each item in items
+		-className += ' ';
+		-className += item;
+
+	
+
+
+
+
+
+
+
+	
+	div(class='' + className)
+		block
+	//- div(class='col-xs-' + xs + ' ' + 'col-sm-' + sm + '' + 'col-md-' + md + ' ' + 'col-lg-' + lg)

@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+	head
+		include assets/head.pug
+	body
+		include assets/header.pug
+		//-header ends 
+		
+		
+		//- footer starts
+		include assets/footer.pug
+		include assets/scripts.pug

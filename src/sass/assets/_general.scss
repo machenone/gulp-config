@@ -1,0 +1,60 @@
+.g_clear {
+    &:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+.g_d-ib {
+    display: inline-block
+}
+
+.g_d-n {
+    display: none;
+}
+
+.g_d-b {
+    display: block;
+}
+
+
+// this class for menu ul-block
+.g_hlist {
+    list-style: none;
+    text-align: justify;
+    text-justify: newspaper;
+    line-height: 0;
+    &:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    li {
+        display: -moz-inline-box;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        line-height: 100%;
+    }
+}
+
+// .g_hlist li {
+//     display: -moz-inline-box;
+//     display: inline-block;
+//     vertical-align: top;
+//     text-align: center;
+//     line-height: 100%;
+// }
+// .g_hlist_helper li a {
+//     line-height: 0;
+// }
+
+// the last element for adjust
+.g_hlist_helper {
+    width: 100%;
+    background: none;
+    li a {
+        line-height: 0;
+    }
+}

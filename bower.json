@@ -1,0 +1,19 @@
+{
+    "name": "def",
+    "description": "",
+    "main": "dist/index.html",
+    "authors": [
+    "Mayer Vlad"
+  ],
+    "license": "MIT",
+    "homepage": "vlad-mayer.ru",
+    "private": true,
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {}
+}
